@@ -1,0 +1,32 @@
+x = int(input("WprowadĹş liczbÄ caĹkowitÄ: "))
+print()
+
+print("Wersja 1.")
+
+if x > 0:
+    print("*************************")
+    print(x,"jest wiÄksze od zera")
+    print("*************************")
+print()
+
+print("Wersja 2.")
+if x > 0:
+    print("*************************")
+    print(x,"jest wiÄksze od zera")
+else:
+    print("*************************")
+    print(x,"jest mniejsze lub rĂłwne zero")
+
+print()
+print("Wersja 3.")
+if x > 0:
+    print("*************************")
+    print(x,"jest wiÄksze od zera")
+elif x < 0:
+    print("*************************")
+    print(x,"jest mniejsze od zera")
+else:
+    print("*************************")
+    print(x,"jest rĂłwne zero")
+
+print("Koniec")

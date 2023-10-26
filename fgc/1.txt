@@ -1,0 +1,22 @@
+# a = input()
+# a = input("WprowadĹş liczbÄ: ")
+# a = float(a)
+
+a = float(input("WprowadĹş liczbÄ: "))
+
+'''
+print("Wprowadzono: ", a)
+x = a + 2
+print("Wynik : ", x)
+
+print("Pi = " + str(3.14))
+
+# float(a)
+# int(a)
+# str(a)
+# bool(a)
+
+x = int(input("WprowadĹş liczbÄ: "))
+y = int(input("WprowadĹş liczbÄ: "))
+print("suma : ", x + y)
+'''

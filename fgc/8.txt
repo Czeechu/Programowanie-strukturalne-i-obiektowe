@@ -1,0 +1,39 @@
+print("wersja while 1.")
+i = 0
+while i < 10:
+    print(i)
+    i = i + 1
+else:
+    print("Koniec while 1.")
+    print("***************")
+
+print("\nWersja while 2.")
+i = 0
+while i < 10:
+    print(i)
+    i = i + 1
+    if i == 5:
+        break
+else:
+    print("Koniec while 2.")  # nie wykona siÄ™, bo byĹ‚ break
+    print("***************")
+
+
+
+print("\nWersja for 1.")
+for i in range(20, 30, 3):
+    print(i)
+else:
+    print("Koniec for 1.")
+    print("-------------")
+
+print("\nWersja for 2.")
+for i in range(20, 30, 3):
+    print(i)
+    if i == 26:
+        break
+else:
+    print("Koniec for 2.")
+    print("-------------")
+
+

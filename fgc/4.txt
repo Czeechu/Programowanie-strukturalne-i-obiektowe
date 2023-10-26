@@ -1,0 +1,32 @@
+we = int(input("WprowadĹş liczbÄ caĹkowitÄ: "))
+
+print()
+print("Wersja 4.")
+if we == 1:
+    print("*************************")
+    print("Jeden")
+elif we == 2:
+    print("*************************")
+    print("Dwa")
+elif we == 3:
+    print("*************************")
+    print("Trzy")
+elif we == 4:
+    print("*************************")
+    print("Cztery")
+elif we > 4:
+    if we > 10:
+        print("++++++")
+        print("wiÄksze od 10")
+    else:
+        if we == 10:
+            print("------")
+            print("DziesiÄÄ")
+        else:
+            print("------")
+            print("WiÄksze od 4 i mniejsze od 10")
+else:
+    print("*************************")
+    print("Liczba z poza sprawdzanego zakresu")
+
+print("Koniec")

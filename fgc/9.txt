@@ -1,0 +1,37 @@
+print("WprowadĹş zakres przeliczania")
+
+# tc_min = float(input("PoczÄtek zakresu: "))
+# tc_max = float(input("Koniec zakresu: "))
+# while tc_max < tc_min:
+#     print("Koniec zakresu musi byÄ wiÄkszy lub rĂłwny od poczÄtku zakresu")
+#     tc_min = int(input("PoczÄtek zakresu: "))
+#     tc_max = int(input("Koniec zakresu: "))
+
+
+# Realizacja pÄtli typu "do/while" przy pomocy pÄtli "while"
+while True:
+    print("Koniec zakresu musi byÄ wiÄkszy lub rĂłwny od poczÄtku zakresu")
+    tc_min = int(input("PoczÄtek zakresu: "))
+    tc_max = int(input("Koniec zakresu: "))
+    if tc_max >= tc_min:
+        break
+
+step = 0
+while step <= 0:
+    step = int(input("Krok przeliczania: "))
+    if step <= 0:
+        print("UWAGA Krok musi byÄ wiÄkszy od zera")
+        print("WprowadĹş poprawny krok przeliczania")
+
+tc = tc_min
+while tc <= tc_max:
+    tf = 9 / 5 * tc + 32
+    print(tc, "Â°C =", tf, "Â°F")
+    tc = tc + step
+else:
+    print("koniec")
+
+print("----------")
+for tc in range(tc_min, tc_max + 1, step):
+    tf = 9/5 * tc + 32
+    print(tc, "Â°C= ", tf, "Â°F")

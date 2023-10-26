@@ -1,0 +1,57 @@
+print("Witaj")
+dana = 10  # typ int
+print("Wynik:", dana, 'Koniec')
+print()
+dana = 10.  # typ float
+print("Wynik:", dana)
+dana = dana + 0.12
+print("Wynik:", dana)
+dana = "Ala ma kota"  # typ str (string)
+print("Wynik:", dana)
+dana = 'Ola\' ma psa'  # typ str (string)
+print("Wynik:", dana)
+dana = True  # typ bool (logiczny)
+print("Wynik:", dana, "Koniec")
+dana = False
+print("dana:", dana)
+dana = 2 < 3
+print("dana:", dana)
+
+"""
+ala ma
+kota
+
+"""
+
+napis = """
+To nie sÄ… dowody â€” powiedziaĹ‚ Biden
+dziennikarzom w BiaĹ‚ym Domu po powrocie z podrĂłĹĽy
+do Azji na szczyt G20.
+
+JeĹ›li chodzi o wstÄ™pne        ustalenia dotyczÄ…ce tragedii,
+zachĂłd nie ma wÄ…tpliwoĹ›ci:
+przyczynÄ… eksplozji najprawdopodobniej byĹ‚a
+ukraiĹ„ska rakieta obrony przeciwlotniczej.
+Z tym stanowiskiem stanowczo nie zgadzajÄ… siÄ™ ukraiĹ„skie wĹ‚adze,
+ktĂłre mimo zdania swoich sojusznikĂłw,
+uwaĹĽajÄ…, ĹĽe pocisk byĹ‚ rosyjski. """
+print(napis)
+napis = """\
+1. To nie sÄ… dowody â€” powiedziaĹ‚ Biden
+dziennikarzom w BiaĹ‚ym Domu po powrocie z podrĂłĹĽy
+do Azji na szczyt G20.
+
+JeĹ›li chodzi o wstÄ™pne        ustalenia dotyczÄ…ce tragedii,
+zachĂłd nie ma wÄ…tpliwoĹ›ci:
+przyczynÄ… eksplozji najprawdopodobniej byĹ‚a
+ukraiĹ„ska rakieta obrony przeciwlotniczej.
+Z tym stanowiskiem stanowczo nie zgadzajÄ… siÄ™ ukraiĹ„skie wĹ‚adze,
+ktĂłre mimo zdania swoich sojusznikĂłw,
+uwaĹĽajÄ…, ĹĽe pocisk byĹ‚ rosyjski. """
+print(napis)
+napis = '''
+Z tym stanowiskiem stanowczo nie zgadzajÄ… siÄ™ ukraiĹ„skie wĹ‚adze,
+ktĂłre mimo zdania swoich sojusznikĂłw,
+uwaĹĽajÄ…, ĹĽe pocisk byĹ‚ rosyjski.
+'''
+print(napis)
